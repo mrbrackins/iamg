@@ -1,0 +1,47 @@
+{
+  "name": "homepage",
+  "title": "Homepage",
+  "version": "0.0.1",
+  "description": "",
+  "platform": "1.0.*",
+  "screens": [
+    {
+      "name": "landing"
+    },
+    {
+      "name": "Home"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "landing",
+      "title": "Landing",
+      "description": "A shortcut for landing",
+      "screen": "@.landing"
+    },
+    {
+      "name": "Home",
+      "title": "Home",
+      "description": "A shortcut for Home",
+      "screen": "@.Home"
+    }
+  ],
+  "themes": [
+    {
+      "title": "Homepage",
+      "description": "",
+      "name": "homepage",
+      "showcase": [
+        "server/assets/list.png",
+        "server/assets/details.png"
+      ],
+      "variables": "@.homepageVariables"
+    }
+  ],
+  "themeVariables": [
+    {
+      "name": "homepageVariables",
+      "path": "./server/themes/homepageVariables.json"
+    }
+  ]
+}

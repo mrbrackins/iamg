@@ -1,0 +1,12 @@
+{
+  "name": "shoutem.news",
+  "version": "3.1.0-build1629883518671",
+  "peerDependencies": {
+    "@shoutem/redux-io": "*",
+    "@shoutem/theme": "*",
+    "@shoutem/ui": "*"
+  },
+  "dependencies": {
+    "html-to-text": "7.0.0"
+  }
+}

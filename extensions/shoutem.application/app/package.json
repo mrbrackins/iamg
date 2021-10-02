@@ -1,0 +1,23 @@
+{
+  "name": "shoutem.application",
+  "version": "3.0.0-build1629282120603",
+  "scripts": {
+    "prebuild": "node -e 'require(\"./build\").runPreBuild()'"
+  },
+  "dependencies": {
+    "react-native-device-info": "~5.4.0",
+    "react-native-maps": "~0.26.0",
+    "react-native-splash-screen": "^3.2.0"
+  },
+  "peerDependencies": {
+    "@shoutem/redux-composers": "*",
+    "@shoutem/redux-io": "*",
+    "@shoutem/theme": "*",
+    "@shoutem/ui": "*"
+  },
+  "nativeDependencies": [
+    "react-native-device-info",
+    "react-native-maps",
+    "react-native-splash-screen"
+  ]
+}

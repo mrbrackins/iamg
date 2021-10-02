@@ -1,0 +1,6 @@
+{
+  "name": "shoutem.application",
+  "version": "3.0.0-build1629282121174",
+  "private": true,
+  "main": "index.js"
+}

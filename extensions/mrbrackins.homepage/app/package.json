@@ -1,0 +1,13 @@
+{
+  "name": "mrbrackins.homepage",
+  "version": "0.0.1-build1631389089084-build1632763947256",
+  "description": "",
+  "rnpm": {
+    "assets": [
+      "fonts"
+    ]
+  },
+  "dependencies": {
+    "react-native-swiper": "^1.6.0"
+  }
+}
